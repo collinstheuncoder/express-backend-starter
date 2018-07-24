@@ -1,0 +1,26 @@
+{
+  "name": "express-backend-starter",
+  "version": "1.0.0",
+  "description": "Simple Node.js/Express and MongoDB Backend Starter",
+  "main": "server.js",
+  "repository": "https://github.com/collinstheuncoder/express-backend-starter.git",
+  "author": "Collins Orlando <sleekcollins@live.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.5",
+    "validator": "^10.4.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.18.3"
+  }
+}
